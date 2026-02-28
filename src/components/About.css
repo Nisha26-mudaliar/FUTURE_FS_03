@@ -1,0 +1,39 @@
+.about {
+  padding: 80px 60px;
+  background-color: #F8F5F2;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #4B2E2E;
+}
+
+.about-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+}
