@@ -1,16 +1,118 @@
-# React + Vite
+# ☕ Brew Haven Cafe Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern cafe website built using React and Node.js.  
+This project was created as part of the Future Interns Full Stack Development Task.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Modern responsive UI
+- Interactive cafe menu
+- Add to Cart functionality
+- Sliding Cart Panel
+- Order Confirmation Popup
+- Order Success Animation
+- Image Gallery
+- Customer Testimonials
+- Contact Form
+- Smooth animations using AOS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend:
+- React.js
+- CSS3
+- AOS Animation Library
+
+Backend:
+- Node.js
+- Express.js
+- MongoDB
+
+---
+
+## 📂 Project Structure
+
+```
+src
+ ├── components
+ │   ├── Navbar
+ │   ├── Home
+ │   ├── About
+ │   ├── Menu
+ │   ├── Gallery
+ │   ├── Testimonials
+ │   ├── Contact
+ │   ├── Cart
+ │   └── Footer
+```
+
+---
+
+## 🛒 Key Feature: Cart System
+
+Users can:
+
+- Add menu items to cart
+- Increase / decrease quantity
+- Remove items
+- View total price
+- Confirm order
+- See order success animation
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/HomePage.png)
+
+### Menu Section
+![Menu](screenshots/Menu.png)
+
+### Cart Panel
+![Cart](screenshots/Cart.png)
+
+### Gallery
+![Gallery](screenshots/Gallery.png)
+
+### About
+![About](screenshots/AboutUs.png)
+
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/Nisha26-mudaliar/FUTURE_FS_03.git
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the project:
+
+```
+npm run dev
+```
+
+---
+
+## 📌 Internship Task
+
+This project was built for **Future Interns - Full Stack Development Task 3 (2026)**.
+
+---
+
+## 👩‍💻 Author
+
+Nisha Mudaliar
