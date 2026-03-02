@@ -1,40 +1,44 @@
-.home {
-  height: 100vh;
-  background: url("https://images.unsplash.com/photo-1509042239860-f550ce710b93") center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  padding: 0 20px;
+.home{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  padding-left:8%;
+  background:url("src/assets/pngtree-d-flying-cup-of-coffee-with-splash-and-beans-background-template-image_16124323.jpg") center/cover no-repeat;
+  text-align:left;
 }
 
-.home-content {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 40px;
-  border-radius: 12px;
+/* Hero text area */
+.hero-content{
+  max-width:500px;
+  color:white;
 }
 
-.home h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
+/* Heading */
+.hero-content h1{
+  font-size:48px;
+  margin-bottom:15px;
+  color:white;
 }
 
-.home p {
-  font-size: 18px;
-  margin-bottom: 20px;
+/* Paragraph */
+.hero-content p{
+  font-size:18px;
+  margin-bottom:25px;
+  line-height:1.5;
 }
 
-.home button {
-  padding: 12px 25px;
-  border: none;
-  background-color: #A67C52;
-  color: white;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: 0.3s;
+/* Button */
+.hero-btn{
+  padding:12px 26px;
+  background:#562424;
+  color:white;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:500;
+  transition:0.3s;
 }
 
-.home button:hover {
-  background-color: #4B2E2E;
+.hero-btn:hover{
+  background:#3e1f1f;
 }

@@ -6,7 +6,7 @@ function About() {
    <section id="about" className="about">
   <div className="about-content" data-aos="fade-right">
     <h2>About Us</h2>
-    <p>Best coffee experience in town.</p>
+    
   </div>
 
 
